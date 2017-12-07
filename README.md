@@ -18,12 +18,13 @@
     + [Wer ist Open Source Mentor?](#wer-ist-open-source-mentor)
 - [Überblick Software- und andere Lizenzen](#uberblick-software--und-andere-lizenzen)
   * [Grundbegriffe](#grundbegriffe)
+    + [Urheberrecht](#urheberrecht)
     + [Open Source](#open-source)
     + [Rechte vs. Pflichten](#rechte-vs-pflichten)
-    + [Lizenzmodelle neben Open Source](#lizenzmodelle-neben-open-source)
+    + [Andere Lizenzmodelle](#andere-lizenzmodelle)
     + [Copyleft](#copyleft)
-    + [Freie Software (Free Software)](#freie-software-free-software)
-    + [Urheberrecht (TODO Zu stark an Präsentation angelehnt?)](#urheberrecht-todo-zu-stark-an-prasentation-angelehnt)
+    + [Freizügige Lizenz](#permissive)
+    + [Freie Software (Free Software)](#freie-software)
     + [Dual-Licensing](#dual-licensing)
     + [Lizenzkompatibilität](#lizenzkompatibilitat)
   * [Lizenzen für Software](#lizenzen-für-software)
@@ -349,9 +350,23 @@ verwenden.
 
 ## Grundbegriffe
 
+### <a name="urheberrecht"></a>Urheberrecht
+
+Das Urheberrecht ist das maßgebliche Schutzrecht für Software und deren Lizenzierung in *Deutschland*.
+
+Spezifische Regelungen für Software finden sich in *§§ 69 a ff. UrhG*:
+
+* Urheberrechtsschutz entsteht *automatisch* nach Fertigstellung der Software.
+* Das Computerprogram muss ein „individuelles Werk“/„Ergebnis einer eigenen geistigen Schöpfung“ sein.
+
+Der Ueheberrechtsschutz erstreckt sich nur auf die Ausdrucksform des Computerprogramms und nicht auf dessen Funktionalität.
+
+* Geschützte Ausdrucksformen sind Maschinen-, Objekt- und Quellcode, sowie innere Struktur und Organisation des Computerprogramms.
+* Ideen und Grundsätze, die dem Computerprogramm zugrunde liegen, sind nicht geschützt.
+
 ### <a name="open_source"></a>Open Source
 
-Jede Software steht automatisch nach deutschem Recht unter Urheberrecht, um dem Autor der Software umfassende Rechte einzuräumen und sein geistiges Werk zu schützen. Beispielsweise betrifft dies das Recht zur Vervielfältigung, Bearbeitung und Verbreitung.
+Jede Software steht automatisch nach deutschem Recht unter [Urheberrecht](#urheberrecht), um dem Autor der Software umfassende Rechte einzuräumen und sein geistiges Werk zu schützen. Beispielsweise betrifft dies das Recht zur Vervielfältigung, Bearbeitung und Verbreitung.
 
 Open Source stellt eine bestimmte Art der Lizenzierung einer Software dar, bei der der Quellcode unter einer bestimmten Lizenz veröffentlicht wird und der Autor als Rechteinhaber der Software der Öffentlichkeit bestimmte Nutzungsrechte einräumt.
 
@@ -365,11 +380,11 @@ Nach der Open Source Initiative (OSI) müssen die Lizenzbedingungen von Open So
 * Bearbeitete und veränderte Versionen der Software im Sourcecode weiterverbreiten
 * in der Regel ist auch die Vermietung der Software (bspw. als SaaS) erlaubt
 
-### Rechte vs. Pflichten
+### <a name="rechte-vs-pflichten"></a>Rechte vs. Pflichten
 
 Neben Rechten stellen Open Source Lizenzen in der Regel auch bestimmte Pflichten an den *Lizenznehmer*, z.B. Copyleft, Mitlieferung von Lizenztexten, u.a. Hierin unterscheiden sich die verschiedenen Lizenzen stark.
 
-### Lizenzmodelle neben Open Source
+### <a name="andere-lizenzmodelle"></a>Andere Lizenzmodelle
 
 Neben Open Source gibt es weitere Lizenzmöglichkeiten für Software:
 
@@ -393,7 +408,7 @@ Der Autor der Software verzichtet auf sein Urheberrecht mit der Folge, dass Soft
 
 Dies ist eher relevant für die rechtliche Situation in den USA. In Deutschland ist ein kompletter Verzicht auf das Urheberrecht wegen der Urheberpersönlichkeitsrechte nicht möglich. Nach **deutschem Recht** wird dies ausgelegt als **Lizenz ohne Verpflichtung für den Lizenznehmer**.
 
-### Copyleft
+### <a name="copyleft"></a>Copyleft
 
 Copyleft-Lizenzen verpflichten den Lizenznehmer dazu, Bearbeitungen der Ursprungssoftware wieder unter denselben Bedingungen der Open-Source-Lizenz freizugeben. Bekannte Vertreter sind die [**GPL**-Lizenzen](#gpl). Dazu werden die Lizenzpflichten verwendet, um die Offenheit der Software zu erzwingen statt einzuschränken.
 
@@ -404,31 +419,21 @@ Im Abschnitt [Lizenzen für Software](#licenses) ist aufgeführt, welche Lizenze
 
 Bei der Einbindung oder Bearbeitung von Open Source Software unter Copyleft-Lizenz sollte im Einzelfall geprüft werden, ob das **Copyleft** greifen könnte.
 
-### Freie Software (Free Software)
+### <a name="permissive"></a>Freizügige Lizenz
+
+Freizügige (engl. _permissive_) Lizenzen ist eine andere Bezeichnung für Nicht-[Copyleft](#copyleft)-Lizenzen. Auch als BSD-Style-Lizenzen bekannt.
+
+### <a name="freie-software"></a>Freie Software (Free Software)
 
 Nicht zu verwechseln mit [Freeware](#freeware).
 
 Freie Software ist laut [Definition der Free Software Foundation (FSF)](https://www.gnu.org/philosophy/free-sw.en.html) solche, die den Nutzern fünf grundlegende Freiheiten erlaubt. In der Praxis liegt diese Definition [sehr nah](https://www.gnu.org/philosophy/categories.html) an der [Open Source](#open_source)-Definition.
 
-### Urheberrecht (TODO Zu stark an Präsentation angelehnt?)
-
-Das Urheberrecht ist das maßgebliche Schutzrecht für Software und deren Lizenzierung in *Deutschland*.
-
-Spezifische Regelungen für Software finden sich in *§§ 69 a ff. UrhG*:
-
-* Urheberrechtsschutz entsteht *automatisch* nach Fertigstellung der Software.
-* Das Computerprogram muss ein „individuelles Werk“/„Ergebnis einer eigenen geistigen Schöpfung“ sein.
-
-Der Ueheberrechtsschutz erstreckt sich nur auf die Ausdrucksform des Computerprogramms und nicht auf dessen Funktionalität.
-
-* Geschützte Ausdrucksformen sind Maschinen-, Objekt- und Quellcode, sowie innere Struktur und Organisation des Computerprogramms.
-* Ideen und Grundsätze, die dem Computerprogramm zugrunde liegen, sind nicht geschützt.
-
-### Dual-Licensing
+### <a name="dual-licensing"></a>Dual-Licensing
 
 Software kann unter mehrere Lizenzen gestellt werden, insbesondere unter eine "Closed Source" und eine "Open Source"-Lizenz. Dual-Licensing ist nur möglich, wenn die Lizenz keine strenge Copyleft-Klausel enthält.
 
-### Lizenzkompatibilität
+### <a name="lizenzkompatibilitat"></a>Lizenzkompatibilität
 
 Sollen verschiedene Softwaremodule, die unter verschiedenen Open Source Lizenzen stehen, zu einem neuen Programm verbunden werden oder Codebestandteile aus einem Open Source Projekt in einem andere Open Source Projekt verwendet werden, ist die Lizenzkompatibilität zu prüfen.
 
@@ -436,13 +441,15 @@ Wird Software mit verschiedenen Copyleft-Lizenzen verwendet kann es grundsätzli
 
 ## <a name="licenses"></a>Lizenzen für Software
 
-TODO Disclaimer einfügen
+Die folgenden Beschreibungen sollen einen Überblick vermitteln über die Landschaft der Open-Source-Lizenzen. Sie sind nicht unbedingt erschöpfend oder korrekt.
+
+Zum genaueren Nachlesen gibt es jeweils einen Link zum Lizenztext und einen Link auf den Eintrag zur jeweiligen Lizenz auf GitHubs https://choosealicense.com.
 
 ### MIT
 
-Die MIT Lizenz ist eine simple und sehr freizügige Lizenz. Diese erfordert lediglich, dass der Copyright und Lizenztext mit übernommen wird. Sie ist mit vielen Lizenzen kompatibel und kann bei Modifikationen und größeren Änderungen frei unter eigener Lizenz verteilt werden.
+Die MIT Lizenz ist eine simple und freizügige Lizenz. Diese erfordert lediglich, dass der Copyright und Lizenztext mit übernommen wird. Sie ist mit vielen Lizenzen kompatibel und kann bei Modifikationen und größeren Änderungen frei unter eigener Lizenz verteilt werden.
 
-| | MIT |
+| | [MIT](https://choosealicense.com/licenses/mit/) |
 | --- | --- |
 | Copyleft | Nein |
 | Besonderheiten | kurzer Lizenztext, beliebteste Lizenz auf GitHub (Nov 2017)|
@@ -458,7 +465,7 @@ Die MIT Lizenz ist eine simple und sehr freizügige Lizenz. Diese erfordert ledi
 
 ### BSD
 
-Die BSD-Lizenzen sind, ähnlich der MIT-Lizenz, eine Gruppe von freizügigen (permissive) Lizenzen, die ursprünglich von der University of California, Berkeley stammen.
+Die BSD-Lizenzen sind, ähnlich der MIT-Lizenz, eine Gruppe von freizügigen Lizenzen, die ursprünglich von der University of California, Berkeley stammen.
 
 Die ursprüngliche BSD-Lizenz enthielt 4 Klauseln, die "neue" 3-Klausel-Variante entfernt die Werbeklausel, die verlangt, den Namen der Universität oder anderer Beitragender zu nennen.
 
@@ -468,7 +475,7 @@ Weitere Varianten sind ebenfalls in Benutzung, unter anderem die ["3-clause clea
 
 Am verbreitetsten ist [laut GitHub](https://github.com/blog/1964-license-usage-on-github-com) die ["BSD 3-clause"](https://choosealicense.com/licenses/bsd-3-clause/)-Lizenz, gefolgt von der ["BSD 2-clause"](https://choosealicense.com/licenses/bsd-2-clause/).
 
-| | BSD 3-clause |
+| | [BSD 3-clause](https://choosealicense.com/licenses/bsd-3-clause/) |
 | --- | --- |
 | Copyleft | Nein |
 | Besonderheiten | |
@@ -482,14 +489,14 @@ Am verbreitetsten ist [laut GitHub](https://github.com/blog/1964-license-usage-o
 | Lizenztext | https://opensource.org/licenses/BSD-3-Clause  |
 | bekannte Vertreter ([GitHub](https://github.com/search?l=&o=desc&q=stars%3A%3E1000+license%3Absd-3-clause&ref=advsearch&s=stars&type=Repositories&utf8=%E2%9C%93)) | d3, React Native, Go (Programmiersprache) |
 
-### Apache 2.0
+### <a name="apache"></a>Apache 2.0
 
-Apache 2.0 ist eine recht freizügige Lizenz, deren Hauptbedingungen die Aufrechterhaltung von Urheberrechts- und Lizenzvermerken erfordern. Es wird eine ausdrückliche Erteilung von Patentrechten gegeben. Eigene Werke, Modifikationen und größere Projekte basierend auf Apache 2.0 können unter verschiedenen Bedingungen und ohne Quellcode verteilt werden.
+Apache 2.0 ist eine freizügige Lizenz, deren Hauptbedingungen die Aufrechterhaltung von Urheberrechts- und Lizenzvermerken erfordern. Es wird eine ausdrückliche Patentlizenz gewährt. Eigene Werke, Modifikationen und größere Projekte basierend auf Apache 2.0 können unter verschiedenen Bedingungen und ohne Quellcode verteilt werden. Erteilt explizit _keine Erlaubnis_ zur Nutzung von Marken des Lizenzgebers.
 
-| | Apache 2.0 |
+| | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
 | --- | --- |
 | Copyleft | Nein |
-| Besonderheiten | Nutzung in patentierten Werken erlaubt | (TODO)
+| Besonderheiten | Explizite Gewährung einer Patentlizenz |
 | Eigene Software darf weiterverbreitet werden | Ja |
 | Eigene Software muss Open-Source sein | Nein |
 | Eigene Software muss unter dieselbe Lizenz gestellt werden | Nein |
@@ -500,29 +507,6 @@ Apache 2.0 ist eine recht freizügige Lizenz, deren Hauptbedingungen die Aufrech
 | Lizenztext | https://www.apache.org/licenses/LICENSE-2.0 |
 | bekannte Vertreter ([GitHub](https://github.com/search?l=&o=desc&q=stars%3A%3E1000+license%3Aapache-2.0&ref=advsearch&s=stars&type=Repositories&utf8=%E2%9C%93)) | Apache, Android, Swift, tensorflow |
 
-TODO!
-
-#### Grundsätzliches
-
-* Non-Copyleft
-* Man darf Software unter dieser Lizenz frei in jedem Umfeld verwenden, modifizieren und verteilen.
-* Wenn man sie verteilt, muss eindeutig darauf hingewiesen werden, welche Software unter der Apache-Lizenz verwendet wurde und dass diese vom Lizenzgeber (name of copyright owner) stammt. Eine Kopie der Lizenz muss dem Paket beiliegen.
-* Änderungen am Quellcode der unter der Apache-Lizenz stehenden Software müssen nicht zum Lizenzgeber zurückgeschickt werden.
-* Eigene Software, die unter Apache-Lizenz stehende Software verwendet, muss nicht unter der Apache-Lizenz stehen.
-* Die eigene Software darf nur dann Apache heißen, wenn eine schriftliche Genehmigung der Apache Foundation vorliegt.
-
-#### Eigene Werke
-
-Eigene Werke, die auf einem unter der Apache-Lizenz stehenden Originalwerk basieren, müssen:
-* eine Kopie der Apache-Lizenz beinhalten
-* bei modifizierten Dateien an auffälliger Stelle angeben, dass sie modifiziert sind
-* alle Original-Urheberrechtsvermerke beibehalten
-* falls das Originalwerk eine Textdatei namens „NOTICE“ enthält, die dort enthaltenen Urhebervermerke der verwendeten Dateien auf eine in der Lizenz genauer vorgeschriebene Art und Weise enthalten.
-
-TODO!
-- kompatibel mit GPL 3.0 -> das Projekt muss dann aber unter GPL 3 gestellt werden
-- inkompatibel mit GPL 1 und 2
-
 ### <a name="gpl"></a>GPL
 
 [Beliebte Projekte auf GitHub](https://github.com/search?l=&o=desc&q=stars%3A%3E1000+license%3Agpl&ref=advsearch&s=stars&type=Repositories&utf8=%E2%9C%93)
@@ -531,7 +515,7 @@ TODO!
 
 Die GNU GPL ist die am weitesten verbreitete Lizenz für freie Software und hat eine starke Copyleft-Anforderung. Bei der Verteilung von abgeleiteten Arbeiten muss der Quellcode der Arbeit unter derselben Lizenz verfügbar gemacht werden. Es gibt mehrere Varianten der GNU GPL mit jeweils unterschiedlichen Anforderungen. Die GPL v2.0 Variante gibt keine Auskunft über die Erteilung von Patentrechten.
 
-| | GPLv2 |
+| | [GPLv2](https://choosealicense.com/licenses/gpl-2.0/) |
 | --- | --- |
 | Copyleft | Stark |
 | Besonderheiten | Nutzung in Patenten unklar |
@@ -549,7 +533,7 @@ Die GNU GPL ist die am weitesten verbreitete Lizenz für freie Software und hat 
 
 Die Berechtigungen dieser starken Copyleft-Lizenz sind für kommerzielle Zwecke sehr eingeschränkt durch die Bedingungen. Es wird eine Bereitstellung des vollständigen Quellcodes für lizenzierte Werke und Änderungen, unter der GPL Lizenz, gefordert. Copyright- und Lizenzhinweise müssen erhalten bleiben. Diese Lizenz erteilt ausdrückliche das erstellen von Patentrechten.
 
-| | GPLv3 |
+| | [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) |
 | --- | --- |
 | Copyleft | Stark |
 | Besonderheiten | Nutzung in Patenten explizit erlaubt |
@@ -567,7 +551,7 @@ Die Berechtigungen dieser starken Copyleft-Lizenz sind für kommerzielle Zwecke 
 
 Die Berechtigungen dieser Copyleft-Lizenz sind abhängig von der verwendung der Lizenz. Sie erfordern die Bereitstellung des vollständigen Quellcodes des verwendeten Werkes und dessen Modifikationen unter derselben Lizenz oder der GNU GPLv3. Copyright- und Lizenzhinweise müssen erhalten bleiben. In der Version 3 wird ausdrückliche eine Erteilung von Patentrechten angegeben. Größere Werke bzw. Projekte, die die unter LGPL lizenzierten Quellcode über Schnittstellen verwendet bzw. als Bibliothek, können unter anderen Bedingungen und ohne Quellcodeherausgabe verteilt werden.
 
-| | LGPL 2.1 |
+| | [LGPL 2.1](https://choosealicense.com/licenses/lgpl-2.1/) |
 | --- | --- |
 | Copyleft | Schwach |
 | Besonderheiten | Copyleftausnahme für Linking |
@@ -604,10 +588,10 @@ Kompatibel mit GPL.
 
 Die MPL ist eine schwache Copyleft-Lizenz. Diese erfordert, dass Quellcode-Dateien des verwendeten Werkes nur bei Änderung unter der gleichen Lizens verteilt und verfügbar gemacht werden soll. Copyright- und Lizenzhinweise müssen erhalten bleiben. Patentrechte können mit dieser Lizenz explizit erstellt werden.
 
-| | MPL |
+| | [MPL](https://choosealicense.com/licenses/mpl-2.0/) |
 | --- | --- |
 | Copyleft | Schwach |
-| Besonderheiten | |
+| Besonderheiten | Kompromiss zwischen der GPL und BSD Lizenz |
 | Eigene Software darf weiterverbreitet werden | Ja |
 | Eigene Software muss Open-Source sein | Nur wenn Copyleft greift |
 | Eigene Software muss unter dieselbe Lizenz gestellt werden | Nur wenn Copyleft greift  |
@@ -617,13 +601,6 @@ Die MPL ist eine schwache Copyleft-Lizenz. Diese erfordert, dass Quellcode-Datei
 | Ursprünglicher Rechteinhaber muss genannt werden | Ja |
 | Lizenztext | https://www.mozilla.org/media/MPL/2.0/index.txt |
 | bekannte Vertreter ([GitHub](https://github.com/search?l=&o=desc&q=stars%3A%3E1000+license%3Ampl-2.0&ref=advsearch&s=stars&type=Repositories&utf8=%E2%9C%93)) | LibreOffice, Syncthing, Servo, TimelineJS3 |
-
-* Kompromiss zwischen der GPL und BSD Lizenz
-* "schwache Copyleft"-Lizenz
-* Modifikationen von MPL-Code muss wieder der MPL unterliegen
-* Erweiterungen, neue Routinen (in anderen Dateien) können einer anderen Lizenz unterliegen
-* Mischform von MPL- und proprietärem Code möglich
-
 
 ## Lizenzen für Daten/Medien
 
@@ -642,10 +619,9 @@ Die MPL ist eine schwache Copyleft-Lizenz. Diese erfordert, dass Quellcode-Datei
 
 ### Creative Commons
 
-Die [Creative Commons Organisation](https://creativecommons.org/) pflegt eine Suite von Lizenzen, die speziell für Nicht-Software gedacht sind.
+Die [Creative Commons Organisation](https://creativecommons.org/) pflegt eine Suite von Lizenzen, die speziell für Nicht-Software-Inhalte wie Software-Dokumentation, Bilder, Musik und Video gedacht sind.
 
 #### Namensnennung (CC BY)
-
 
 Diese Lizenz erlaubt anderen, Ihr Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, auch kommerziell, solange Sie als Urheber des Originals genannt werden. Dies ist die freieste Lizenz empfohlen für maximale Verbreitung und Nutzung des lizenzierten Werkes!
 
